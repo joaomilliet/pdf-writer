@@ -1,0 +1,20 @@
+{
+  "aahext": 1,
+  "hubApi": 1,
+  "id": "com.jpmm.jpmm-pdf-writer",
+  "name": "PDF Writer",
+  "vendor": "jpmm",
+  "version": "0.1.0",
+  "namespace": "jpmm-pdf-writer",
+  "kind": "python",
+  "entry": "pdf_writer",
+  "requires": {
+    "python": "3.9"
+  },
+  "access": {
+    "hosts": [],
+    "files": "reads the image files (JPEG, PNG) the user names to place them in a PDF",
+    "macos": []
+  },
+  "notes": "Writes PDF documents from a structured description: headings, formatted text, lists, tables, charts and images."
+}
